@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("Assets/hihi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+
+  user-select: none;
+  -webkit-app-region: drag;
+}
+.app {
+    position: relative;
+     width: 100%;
+    height: 100%;
+    aspect-ratio: 1013 / 1024;
+}
+
+@font-face {
+    font-family: "Pixeboy";
+    src: url("./fonts/Pixeboy.ttf") format("truetype");
+}
+body {
+    font-family: "Pixeboy", sans-serif;
+}
+
+
+
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+.frame {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+    overflow: hidden;
+}
+#Day{
+  color: #FCE3E9;
+  text-align: center;
+  -webkit-text-stroke-width: 1.0px;
+  -webkit-text-stroke-color: #ea4eed;
+  font-family: "Pixeboy";
+  font-size: 8.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25remp; /*16.667*/
+  letter-spacing: 0.45rem;
+  position: absolute;
+  top: 40.5%;
+ left: 55%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+ z-index: 1;
+}
+
+#Month {
+  color: #FCE3E9;
+  text-align: center;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #ea4eed;
+  font-family: "Pixeboy";
+  font-size: 2.0rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /*83.333*/
+  letter-spacing: 0.1rem;
+   position: absolute;
+    top: 62.5%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+ 
+
