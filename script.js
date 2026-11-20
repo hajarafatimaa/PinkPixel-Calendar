@@ -1,7 +1,7 @@
 function updateCalender() {
     const now = new Date();
     const day = now.getDate();
-    const montNames = ["January", "February", "March", "Arpil", "May", "June", "July", "Augest", "September", 
+    const montNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", 
         "October", "November", "December"]
         const month = montNames[now.getMonth()];
 
